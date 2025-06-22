@@ -1,129 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColorRave</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href=""><img src="./image/Nike-logo.png" alt=""></a>
-       <ul>
-        <li><a href="">Main page</a></li>
-        <li><a href="">Benefits</a></li>
-        <li><a href="">Advantages</a></li>
-        <li><a href="">Reviews</a></li>
-        <li><a href="">Contacts</a></li>
-        <li><a href="">Order</a></li>
-       </ul>
-       <div>
-        <button>
-            Ua
-        </button>
-        <button>
-            Eng
-        </button>
-       </div>
+      <div class="container header-container">
+        <a href="" class="logo"><img src="./image/Nike-logo.png" alt="" /></a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="">Main page</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Benefits</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Advantages</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Reviews</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Contacts</a>
+          </li>
+          <li class="header-item"><a class="header-link" href="">Order</a></li>
+        </ul>
+        <div>
+          <button class="header-language">Ua</button>
+          <button class="header-language">Eng</button>
+        </div>
+      </div>
+    </header>
     <main>
-        <section class="hero">
-           <img src="./image/Nike-logo.png" alt=""> 
-           <h1>C&R <span>ColoRawe</span>
-           Your dream Nike</h1>
-           <p>On this site you can find custom Nike sneakers of your dreams. 
-            The original company caт`t create such beautiful 
-            sneakers as we do.
-            Good luck finding your way in the world of custom sneakers.</p>
-            <button>Buy my Nike</button>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="./image/zirku.svg" alt=""></img>
-                        <h3>Premium
-                            Quality</h3>
-                </li>
-                <li>
-                    <img src="./image/kraski.svg" alt=""></img>
-                        <h3>Indelible 
-                            paint</h3>
-                    
-                </li>
-                <li>
-                    <img src="./image/avtivka.png" alt=""></img>
-                        <h3>Fast 
-                            shipping</h3>
-                    
-                </li>
-            </ul>
-        </section>
-        <section class="Reviews">
-            <h2>Reviews</h2>
-            <ul>
-                <li>
-                   <div> <p>Sneakers are very 
-                        comfortable and well 
-                        painted, nothing has 
-                        worn off in a year.</p>
-                        <p>25.11</p>
-                    </div>
-                    <div>
-                        <img src="./image/choloviksochkami.png" alt="">
-                        <h3>John Teylor</h3>
-                        <p>With us from 2018</p>
-                    </div>
-
-                </li>
-                <li>
-                    <div><p>I'm very happy with this color scheme.
-                        They match all my clothes.</p>
-                        <p>05.01</p>
-                    </div>
-                    <div>
-                    <img src="./image/women.png" alt="">
-                    <h3>Elizabeth Garsia</h3>
-                    <p>With us form 2020</p>
-                    </div>
-                </li>
-                <li>
-                    <div><p>Just right if you need to go to a party.
-                        I use them actively, the paint is super.</p>
-                        <p>18.06</p>
-                    </div>
-                <div>
-                    <img src="./image/misterchel.png" alt="">
-                    <h3>Tom Maquare</h3>
-                    <p>With us from 2019</p>
-                </div>
-                </li>
-            </ul>
-        </section>
-        <section class="order">
-            <form>
-                <h2>order</h2>
-            <input type="emait">Write your email
-            <input type="text">Your country
-            <input type="text">Your City
-            <input type="text">Your Adress
-            </form>
-        </section>
+      <section class="hero">
+        <div class="container">
+          <img src="./image/Nike-logo.png" alt="" />
+          <p class="name-logo">С&R</p>
+          <h1 class="hero-title"><span>ColoRawe</span> <br>Your dream Nike</h1>
+          <p class="hero-pretitle">
+            On this site you can find custom Nike sneakers of your dreams. The
+            original company caт`t create such beautiful sneakers as we do. Good
+            luck finding your way in the world of custom sneakers.
+          </p>
+          <button class="hero-button">Buy my Nike</button>
+        </div>
+      </section>
+      <section class="fun">
+        <div class="container">
+        <ul class="fun-list">
+          <li class="fun-item">
+            <img src="./image/zirku.svg" alt="" class="fun-image" />
+            <h3 class="fun-pretitle">Premium Quality</h3>
+          </li>
+          <li class="fun-item">
+            <img src="./image/kraski.svg" alt="" class="fun-image" />
+            <h3 class="fun-pretitle">Indelible paint</h3>
+          </li>
+          <li class="fun-item">
+            <img src="./image/avtivka.png" alt="" class="fun-image" />
+            <h3 class="fun-pretitle">Fast shipping</h3>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+        <h2 class="reviews-title">Reviews</h2>
+        <ul class="reviews">
+          <li class="reviews-item">
+            <div>
+              <p>
+                Sneakers are very comfortable and well painted, nothing has worn
+                off in a year.
+              </p>
+              <p class="reviews-date">25.11</p>
+            </div>
+            <div>
+              <img
+                src="./image/choloviksochkami.png"
+                alt=""
+                class="reviews-image"
+              />
+              <h3 class="reviews-name">John Teylor</h3>
+              <p class="reviews-form">With us from 2018</p>
+            </div>
+          </li>
+          <li class="reviews-item">
+            <div>
+              <p>
+                I'm very happy with this color scheme. They match all my
+                clothes.
+              </p>
+              <p class="reviews-date">05.01</p>
+            </div>
+            <div>
+              <img src="./image/women.png" alt="" class="reviews-image" />
+              <h3 class="reviews-name">Elizabeth Garsia</h3>
+              <p class="reviews-form">With us form 2020</p>
+            </div>
+          </li>
+          <li class="reviews-item">
+            <div>
+              <p>
+                Just right if you need to go to a party. I use them actively,
+                the paint is super.
+              </p>
+              <p class="reviews-date">18.06</p>
+            </div>
+            <div>
+              <img src="./image/misterchel.png" alt="" class="reviews-image" />
+              <h3 class="reviews-name">Tom Maquare</h3>
+              <p class="reviews-form">With us from 2019</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <section class="order">
+        <div class="container">
+        <h2 class="order-title">order</h2>
+        <form class="order-form">
+          <input type="email" class="order-email" />Write your email
+          <input type="text" class="order-country" />Your country
+          <input type="text" class="order-city" />Your City
+          <input type="text" class="order-adress" />Your Adress
+        </form>
+        <button></button>
+      </div>
+      </section>
     </main>
     <footer class="footer">
-        <ul>
-            <li>Have a question?</li>
-            <li>Have a proposal for cooperation?</li>
-            <li>Advertising questions?</li>
-        </ul>
-        <ul>
-            <li>ColoRawe_support@gmail.com</li>
-            <li>ColoRawe_Cooperation@gmail.com</li>
-            <li>ColoRawe_Advertising@gmail.com</li>
-        </ul>
-        <p>2022 ColoRawe @All rights reserved</p>
-        <p>United States</p>
-        <img src="./image/Nike-logo.png" alt="">
-        <h3>C&R</h3>
+      <div class="container">
+      <ul class="footer-question">
+        <li>Have a question?</li>
+        <li>Have a proposal for cooperation?</li>
+        <li>Advertising questions?</li>
+      </ul>
+      <ul class="footer-email">
+        <li>ColoRawe_support@gmail.com</li>
+        <li>ColoRawe_Cooperation@gmail.com</li>
+        <li>ColoRawe_Advertising@gmail.com</li>
+      </ul>
+      <p>2022 ColoRawe @All rights reserved</p>
+      <p>United States</p>
+      <img src="./image/Nike-logo.png" alt="" />
+      <h3>C&R</h3>
+    </div>
     </footer>
-</body>
+  </body>
 </html>

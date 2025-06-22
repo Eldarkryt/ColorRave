@@ -1,0 +1,140 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+body {
+  background-color: rgba(1, 45, 99, 1);
+}
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.header {
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 29px;
+}
+.header-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.header-link {
+  color: #fff;
+}
+.header-language {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+.hero {
+  background-image: url(./image/zadni\ fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 94px;
+  padding-bottom: 183px;
+}
+.name-logo {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 40px;
+}
+.hero-title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 100%;
+}
+.hero-title span {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 144px;
+  line-height: 100%;
+
+}
+.hero-pretitle {
+  width: 508px;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(142, 50, 198, 1);
+  padding: 20px 60px;
+}
+.fun {
+  background-image: url(./image/drygizadnifon.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+.fun-list {
+  display: flex;
+  border: 5px solid rgba(142, 50, 198, 1);
+  align-items: center;
+  color: #fff;
+  gap: 145px;
+}
+.fun-pretitle {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fun-image {
+  width: 240px;
+  height: 240px;
+}
+.reviews{
+  display: flex;
+  background-image: url(./image/tretyzadnifon.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  padding-top: 114px;
+  padding-bottom: 114px;
+}
+.reviews-title{
+  font-family: "Playfair Display";
+font-weight: 400px;
+font-size: 48px;
+line-height: 100%;
+text-align: center;
+}
+.reviews-item{
+  gap: 93px;
+}
