@@ -77,7 +77,6 @@ body {
   font-weight: 400px;
   font-size: 144px;
   line-height: 100%;
-
 }
 .hero-pretitle {
   width: 508px;
@@ -97,7 +96,7 @@ body {
 .fun {
   background-image: url(./image/drygizadnifon.png);
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   padding-top: 105px;
   padding-bottom: 105px;
 }
@@ -120,21 +119,210 @@ body {
   width: 240px;
   height: 240px;
 }
-.reviews{
+.reviews {
   display: flex;
   background-image: url(./image/tretyzadnifon.png);
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: center;
   padding-top: 114px;
   padding-bottom: 114px;
+  color: #fff;
 }
-.reviews-title{
+.reviews-title {
+  display: flex;
   font-family: "Playfair Display";
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+ justify-content: center;
+}
+.reviews-item:nth-child(1){
+  background-image: linear-gradient(to top left, 
+  rgba(0, 229, 230, 1),
+  rgba(0, 168, 247, 1),
+  rgba(154, 118, 249, 1),
+  rgba(204, 94, 194, 1));
+box-shadow: 0px 30px 0px -13px rgba(83, 57, 120, 1);
+box-shadow: 0px 14px 0px -5px rgba(123, 84, 178, 1);
+}
+.reviews-item:nth-child(2){
+  background-image: linear-gradient(to top left, 
+  rgba(255, 104, 180, 1), 
+  rgba(255, 69, 225, 1), 
+  rgba(206, 58, 255, 1), 
+  rgba(137, 97, 255, 1));
+box-shadow: 0px 30px 0px -13px rgba(97, 51, 124, 1);
+box-shadow: 0px 14px 0px -5px rgba(145, 89, 177, 1);
+margin-right: 93px;
+margin-left: 93px;
+}
+.reviews-item:nth-child(3){
+  background-image: linear-gradient(to top left, 
+  rgba(255, 225, 40, 1),
+  rgba(255, 155, 92, 1),
+  rgba(255, 131, 129, 1),
+  rgba(255, 84, 137, 1));
+box-shadow: 0px 30px 0px -13px rgba(115, 47, 38, 1);
+box-shadow: 0px 14px 0px -5px rgba(185, 90, 76, 1);
+}
+.reviews-item {
+  width: 255px;
+  height: 292px;
+  border-radius: 15px;
+  gap: 93px;
+}
+.reviews-pretitle{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 49px;
+  margin-right: 13px;
+  margin-left: 13px;
+}
+.reviews-date{
+  font-family: "Roboto",sans-serif;
+font-weight: 400px;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(216, 216, 216, 1);
+margin-top:8px;
+margin-left: 13px;
+}
+.reviews-name{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 49px;
+  margin-bottom: 1px;
+}
+.reviews-from{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(216, 216, 216, 1);
+  margin-left: 49px;
+  margin-bottom: 29px;
+}
+.reviews-image{
+margin-left: 13px;
+ margin-top: 46px;
+ margin-bottom: 5px;
+}
+.order{
+  display: flex;
+  background-image: url(./image/chetvertyfon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 21px;
+  padding-bottom: 37px;
+}
+.order-title{
+  display: flex;
+  font-family: "Playfair Display",sans-serif;
+  justify-content:center;
 font-weight: 400px;
 font-size: 48px;
 line-height: 100%;
-text-align: center;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
 }
-.reviews-item{
-  gap: 93px;
+.order-email{
+  width: 690px;
+height: 60px;
+border-radius: 50px;
+justify-content: center;
+margin-bottom: 19px;
+}
+.order-email{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+.order-country,
+.order-city,
+.order-adress{
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+}
+.order-country,
+.order-city,
+.order-adress::placeholder{
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  
+}
+.order-button{
+  font-family: "Roboto",sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #fff;
+  width: 248px;
+height: 68px;
+border-radius: 16px;
+background: rgba(142, 50, 198, 1);
+}
+.footer{
+  display: flex;
+}
+.footer-question{
+  font-family: "Roboto",sans-serif;
+font-weight: 400px;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+}
+.footer-email{
+  font-family: "Roboto",sans-serif;
+font-weight: 400px;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+}
+.footer-date{
+  font-family: "Roboto",sans-serif;
+font-weight: 400px;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+}
+.footer-plase{
+  font-family: "Roboto",sans-serif;
+font-weight: 400px;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+}
+.footer-name-logo{
+  font-family: "PT Serif",sans-serif;
+font-weight: 400px;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 1)
+}
+.footer-logo{
+  width: 108px;
+  height: 81px;
 }
