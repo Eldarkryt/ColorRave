@@ -383,3 +383,24 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
+
+
+.backdrop{
+      background-color: rgba(0, 0, 0, 0.292);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal{
+  background-image: url(./image/modalbg.png);
+  padding: 25px;
+  width: 500px;
+  height: 400px;
+  position: absolute;  
+ top: 50%;
+ left: 50%;
+
+ transform: translate(-50%,-50%);
+}
