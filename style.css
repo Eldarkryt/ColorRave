@@ -36,6 +36,10 @@ body {
 .header-link {
   color: rgba(199, 199, 199, 1);
 }
+.header-link:hover{
+  transition: color 0.3s ease;
+  color: rgba(255, 255, 255, 1);
+}
 .header-link span {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -102,6 +106,14 @@ body {
   border-radius: 10px;
   background-color: rgba(142, 50, 198, 1);
   padding: 20px 60px;
+}
+.hero-button:hover,
+.hero-button:focus{
+   transition: background-color 0.3s ease;
+     background-color: rgb(185, 98, 238);
+     transition: transform 0.3s ease-in-out;
+     transform: scale(1.1);
+  cursor: pointer;
 }
 .fun {
   background-image: url(./image/drygizadnifon.png);
@@ -308,6 +320,13 @@ body {
   border-radius: 16px;
   background: rgba(142, 50, 198, 1);
 }
+.order-button:hover{
+   transition: background-color 0.3s ease;
+     background-color: rgb(185, 98, 238);
+     transition: transform 0.3s ease-in-out;
+     transform: scale(1.1);
+  cursor: pointer;
+}
 .footer {
   background-color: rgba(2, 22, 53, 1);
 }
@@ -385,7 +404,7 @@ body {
 }
 
 
-.backdrop{
+/* .backdrop{
       background-color: rgba(0, 0, 0, 0.292);
     width: 100vw;
     height: 100vh;
@@ -394,13 +413,13 @@ body {
     left: 0;
 }
 .modal{
-  background-image: url(./image/modalbg.png);
+  background-image: url(./image/bgmodal.png);
   padding: 25px;
-  width: 500px;
-  height: 400px;
+width: ;
+height: ;
   position: absolute;  
  top: 50%;
  left: 50%;
 
  transform: translate(-50%,-50%);
-}
+} */
