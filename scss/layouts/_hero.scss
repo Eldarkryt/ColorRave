@@ -1,0 +1,50 @@
+.hero {
+  background-image: url(../../image/zadni\ fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 94px;
+  padding-bottom: 183px;
+}
+.name-logo {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 40px;
+}
+.hero-title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 100%;
+}
+.hero-title span {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 144px;
+  line-height: 100%;
+}
+.hero-pretitle {
+  width: 508px;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(142, 50, 198, 1);
+  padding: 20px 60px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  transition: background-color 0.3s ease;
+  background-color: rgb(185, 98, 238);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
+}

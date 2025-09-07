@@ -1,0 +1,553 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(1, 45, 99);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 29px;
+}
+
+.header-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.header-link {
+  color: rgb(199, 199, 199);
+}
+
+.header-link:hover {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  color: rgb(255, 255, 255);
+}
+
+.header-link span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.header-language {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300px;
+  font-size: 24px;
+  line-height: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.header-language span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(220, 220, 220);
+}
+
+.hero {
+  background-image: url(../../image/zadni\ fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 94px;
+  padding-bottom: 183px;
+}
+
+.name-logo {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.hero-title span {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 144px;
+  line-height: 100%;
+}
+
+.hero-pretitle {
+  width: 508px;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(142, 50, 198);
+  padding: 20px 60px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  background-color: rgb(185, 98, 238);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.fun {
+  background-image: url(../../image/drygizadnifon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.fun-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 5px solid rgb(142, 50, 198);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  gap: 145px;
+}
+
+.fun-item {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.fun-item:nth-child(1) {
+  padding-left: 25px;
+}
+
+.fun-pretitle {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.fun-image {
+  width: 240px;
+  height: 240px;
+}
+
+.fun-image:nth-child(3),
+.fun-image:first-child {
+  padding-top: 5px;
+}
+
+.reviews {
+  background-image: url(../../image/tretyzadnifon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 25px;
+  padding-bottom: 114px;
+  color: #fff;
+}
+
+.reviews-title {
+  font-family: "Playfair Display";
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.reviews-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews-item:nth-child(1) {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgb(0, 229, 230)), color-stop(rgb(0, 168, 247)), color-stop(rgb(154, 118, 249)), to(rgb(204, 94, 194)));
+  background-image: linear-gradient(to top left, rgb(0, 229, 230), rgb(0, 168, 247), rgb(154, 118, 249), rgb(204, 94, 194));
+  -webkit-box-shadow: 0px 14px 0px -5px rgb(123, 84, 178), 0px 30px 0px -13px rgb(83, 57, 120);
+          box-shadow: 0px 14px 0px -5px rgb(123, 84, 178), 0px 30px 0px -13px rgb(83, 57, 120);
+}
+
+.reviews-item:nth-child(2) {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgb(255, 104, 180)), color-stop(rgb(255, 69, 225)), color-stop(rgb(206, 58, 255)), to(rgb(137, 97, 255)));
+  background-image: linear-gradient(to top left, rgb(255, 104, 180), rgb(255, 69, 225), rgb(206, 58, 255), rgb(137, 97, 255));
+  -webkit-box-shadow: 0px 14px 0px -5px rgb(145, 89, 177), 0px 30px 0px -13px rgb(97, 51, 124);
+          box-shadow: 0px 14px 0px -5px rgb(145, 89, 177), 0px 30px 0px -13px rgb(97, 51, 124);
+  margin-right: 93px;
+  margin-left: 93px;
+}
+
+.reviews-item:nth-child(3) {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgb(255, 225, 40)), color-stop(rgb(255, 155, 92)), color-stop(rgb(255, 131, 129)), to(rgb(255, 84, 137)));
+  background-image: linear-gradient(to top left, rgb(255, 225, 40), rgb(255, 155, 92), rgb(255, 131, 129), rgb(255, 84, 137));
+  -webkit-box-shadow: 0px 14px 0px -5px rgb(185, 90, 76), 0px 30px 0px -13px rgb(115, 47, 38);
+          box-shadow: 0px 14px 0px -5px rgb(185, 90, 76), 0px 30px 0px -13px rgb(115, 47, 38);
+}
+
+.reviews-item {
+  width: 255px;
+  border-radius: 15px;
+  padding: 49px 13px 29px;
+}
+
+.reviews-pretitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.reviews-date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(216, 216, 216);
+  padding-top: 8px;
+  margin-bottom: 47px;
+}
+
+.reviews-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1px;
+}
+
+.reviews-from {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(216, 216, 216);
+}
+
+.reviews-lydu {
+  padding-left: 5px;
+}
+
+.reviews-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.order {
+  background-image: url(../../image/chetvertyfon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 21px;
+  padding-bottom: 37px;
+}
+
+.order-title {
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400px;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 33px;
+}
+
+.order-email {
+  width: 690px;
+  border-radius: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 19px;
+  padding: 12px 25px;
+}
+
+.order-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.order-country,
+.order-city,
+.order-adress {
+  width: 580px;
+  border-radius: 50px;
+  margin-bottom: 19px;
+}
+
+.order-country,
+.order-city,
+.order-adress {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 11px 24px;
+}
+
+.order-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 248px;
+  height: 68px;
+  border-radius: 16px;
+  background: rgb(142, 50, 198);
+}
+
+.order-button:hover {
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  background-color: rgb(185, 98, 238);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(2, 22, 53);
+}
+
+.footer-question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.footer-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.footer-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 45px;
+}
+
+.footer-date {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 7px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-plase {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.footer-name-logo {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.footer-logo {
+  width: 108px;
+  height: 81px;
+}
+
+.div-logs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.div-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.div-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* .backdrop{
+      background-color: rgba(0, 0, 0, 0.292);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal{
+  background-image: url(./image/bgmodal.png);
+  padding: 25px;
+width: ;
+height: ;
+  position: absolute;  
+ top: 50%;
+ left: 50%;
+
+ transform: translate(-50%,-50%);
+} */
